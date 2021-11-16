@@ -1,9 +1,9 @@
 ﻿//required moment.js
 //let tokenAT = $("#tokenAT").val();
-//let counponList = $("#counponList");
-//let mggLoading = $("#counponLoading");
-//let titleCoupon = $("#titleCoupon");
-//let btnMoreCoupon = $("#btnMoreCoupon");
+let counponList = $("#counponList");
+let mggLoading = $("#counponLoading");
+let titleCoupon = $("#titleCoupon");
+let btnMoreCoupon = $("#btnMoreCoupon");
 //let currentPage = 1, limit = 50, merchant = "shopee";
 //getCounpon("shopee");
 
