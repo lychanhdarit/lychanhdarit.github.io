@@ -1,5 +1,5 @@
 ﻿//required moment.js
-let tokenAT = $("#tokenAT").val();
+//let tokenAT = $("#tokenAT").val();
 let counponList = $("#counponList");
 let mggLoading = $("#counponLoading");
 let titleCoupon = $("#titleCoupon");
