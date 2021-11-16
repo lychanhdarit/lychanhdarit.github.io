@@ -1,16 +1,14 @@
 ﻿//required moment.js
 //let tokenAT = $("#tokenAT").val();
-let counponList = $("#counponList");
-let mggLoading = $("#counponLoading");
-let titleCoupon = $("#titleCoupon");
-let btnMoreCoupon = $("#btnMoreCoupon");
+//let counponList = $("#counponList");
+//let mggLoading = $("#counponLoading");
+//let titleCoupon = $("#titleCoupon");
+//let btnMoreCoupon = $("#btnMoreCoupon");
+//let currentPage = 1, limit = 50, merchant = "shopee";
+//getCounpon("shopee");
 
 var loadingImg = "https://blogger.googleusercontent.com/img/a/AVvXsEjem-tWEY77eArEVzlz0a7aSkuZaCfl9envYMXZk4xKHb0bEHrXEf2LtZ8kI6hlbl2zOcu7YIQiYHXjbmIvAmKcxO8B7kpQlm0_UyJeuhhUxVevCr8NEfHMAOrv7L-bMP1s9Zta0C7Nyjz2bE_4r0jRamiYy2222AWWqc0JyN92AxBvBOe5DJEqB4yB=s320";
 var hostCounpon = 'https://api.accesstrade.vn/v1/offers_informations';
-//let currentPage = 1, limit = 50, merchant = "shopee";
-
-//getCounpon("shopee");
-
 btnMoreCoupon.click(function () {
 	currentPage++; getCounpon(merchant, $("#categoriesCounponFilter").val());
 })
