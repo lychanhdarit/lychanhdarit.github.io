@@ -67,4 +67,4 @@ class DataBlogger extends React.Component {
     }
 }
 
-ReactDOM.render(<DataBlogger url="https://react-vinapage.blogspot.com/feeds/posts/default/-/Sản phẩm?start-index=1&amp;max-results=10&amp;orderby=published&amp;alt=json" postId="<data:widgets.Blog.first.posts.first.id />" />, document.getElementById('app'),);
+ReactDOM.render(<DataBlogger url="https://react-vinapage.blogspot.com/feeds/posts/default/-/Sản phẩm?start-index=1&amp;max-results=10&amp;orderby=published&amp;alt=json"  />, document.getElementById('app'),);
