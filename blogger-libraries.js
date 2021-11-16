@@ -17,7 +17,6 @@ function getLabelFromLink() {
 	return label;
 }
 
-
 function getItemProductFromContent(content) {
 	let linkImage = getValueCodeFromContent(content, "[thumbnail_url]", "[/thumbnail_url]");
 	let id = getValueCodeFromContent(content, "[id]", "[/id]");
@@ -51,7 +50,6 @@ function getItemProductFromContent(content) {
 	return (`<div class="item col-md-3"> <div class="product-grid-item simpleCart_shelfItem"> <div class="product_img relative"> <div class="icon_flat"></div> <a href = "` + link + `"> <img alt="` + title + `"  data-src="` + linkImage + `" class = "lazy" ></a> </div> <div class="product_title"> <h3><a href="` + link + `" class="item_name">` + title + `</a></h3> </div> <div class="product_price"> <span class="price_new item_price"> ` + giaban.replaceAll("₫", "") + ` đ</span> ` + dc + ` </div>  ` + badges_new + ` <div class="area_btn"> </div></div></div>`);
 
 }
-
 
 function customContentProductBook(content) { 
     if (content) {
