@@ -50,12 +50,10 @@ body {
   margin: 0;
    background: radial-gradient(#272727, #1b1b1b);
 }
-.wrapper-2{
-   background: radial-gradient(#272727, #1b1b1b);
+.wrapper-2{ 
   padding:10px
 }
-.wrapper-1 {
-  background: radial-gradient(#272727, #1b1b1b);
+.wrapper-1 { 
   display: grid;
   grid-template-areas: 'overlap';
   place-content: center;
@@ -74,8 +72,7 @@ body {
   -webkit-text-stroke: 1px transparent;
  
 }
-.wrapper {
-  background: radial-gradient(#272727, #1b1b1b);
+.wrapper { 
   display: grid;
   grid-template-areas: 'overlap';
   place-content: center;
