@@ -1,6 +1,7 @@
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
+
 let run =100;
 $("#btnGenerate").click(  function(){  
   //==================================
